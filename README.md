@@ -62,7 +62,7 @@ Scala with Event Store, such as:
 * Create a table
 * Query a table
 
-#### Import the Notebook
+#### Import the notebook
 
 Use the Db2 Event Store UI to create and run the notebook.
 
@@ -80,6 +80,16 @@ The new notebook is now open and ready for execution.
 2. Run the notebook using the menu `Cell  ▷ Run all` or run the cells individually with the play button.
 
 ### 4. Run the Scala app
+
+The repo contains an sbt project to run the Scala/Akka app.
+
+
+* Install sbt from [here](https://www.scala-sbt.org/1.0/docs/Setup.html).
+* Run the app:
+  ```
+  cd db2-event-store-akka-streams
+  sbt run
+  ```
 
 ### 5. Feed in data
 
@@ -114,7 +124,7 @@ text or file input.
 The git repo includes a Jupyter notebook which is uses Spark SQL and
 Brunel visualizations to manipulate and present the data.
 
-#### Import the Notebook
+#### Import the notebook
 
 Use the Db2 Event Store UI to create and run the notebook.
 
