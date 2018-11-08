@@ -12,9 +12,7 @@ When the reader has completed this Code Pattern, they will understand how to:
 * Use Jupyter notebooks and Scala to interact with Event Store
 * Use Spark SQL and Brunel visualizations to analyze the data
 
-<!-- 
-![](doc/source/images/architecture.png)
--->
+![architecture](doc/source/images/architecture.png)
 
 ## Flow
 1. Setup the database with a Jupyter notebook.
