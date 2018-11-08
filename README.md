@@ -97,7 +97,9 @@ Now that the app is running, data can be fed in with WebSockets.
 You should be able to use your favorite WebSockets test client (or write one).
 For example, **Advanced REST Client (ARC)** supports testing WebSockets with
 text or file input.
- 
+
+![arc_testing](doc/source/images/arc_testing.png)
+
 #### To test with ARC:
 
 * Install ARC from [here](https://install.advancedrestclient.com/#/install).
@@ -114,8 +116,6 @@ text or file input.
   * Click `SELECT FILE` or use drag-and-drop to select an example CSV file.
   * Press `SEND`.
 * Direction **out** will show when/what you sent, and direction **in** will show the response from your server.
-
-  [ARC Testing](doc/source/images/arc_testing.png)
 
 ### 6. See the results
 
